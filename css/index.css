@@ -1,0 +1,21 @@
+*{
+    background-color: rgb(28, 43, 62);
+    color: black;
+    align-items: center;
+    padding: 10px;
+    margin: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.subsections,header{
+    background-color: rgb(196, 145, 77);
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+header div h1{
+    text-align: center;
+    font-size: 50px;
+}
+h3{
+    font-size: 25px;
+}
