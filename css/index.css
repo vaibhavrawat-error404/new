@@ -98,10 +98,15 @@ select {
     text-align: center;
     letter-spacing: 1px;
 
+    width: 200px;
+
     padding: 3px 5px;
-    margin: 25px 50px 0px 50px;
+    margin: 15px auto 10px auto;
+
+    font-weight: 100PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
-    border-radius: 15px 15px 0px 0px;
+    border-radius: 15px;
 
     border: 2px solid rgba(45, 102, 217, 0.08);
     background-color: rgba(240, 244, 247, 0.286);
