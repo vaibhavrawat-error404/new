@@ -26,6 +26,11 @@ header div h1{
     margin: 25px auto;
 
     box-shadow: -15PX 15PX 50px rgba(56, 189, 248, 0.5);
+
+    position: fixed;
+    top: 10px;
+    right: 50px;
+    left: 50px;
 }
 
 .subsections{
@@ -43,6 +48,7 @@ header div h1{
 
 h3 {
     color: rgba(38, 116, 190, 0.638);
+    
     /*
     text-decoration-line: underline;             
     text-decoration-style: wavy;                
@@ -69,5 +75,35 @@ select {
     border-radius: 8px;
     cursor: pointer;
     outline: none;
+
+}
+
+#items {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 10px;
+}
+
+.item{
+    margin: 10px;
+    background-color: #c0d0f818;
+    align-items: center;
+    justify-content: center;
+}
+
+#baggy{
+    text-align: center;
+    letter-spacing: 1px;
+
+    padding: 3px 5px;
+    margin: 25px 50px 0px 50px;
+    
+    border-radius: 15px 15px 0px 0px;
+
+    border: 2px solid rgba(45, 102, 217, 0.08);
+    background-color: rgba(240, 244, 247, 0.286);
 
 }
