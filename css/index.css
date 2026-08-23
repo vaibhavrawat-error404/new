@@ -112,3 +112,48 @@ select {
     background-color: rgba(240, 244, 247, 0.286);
 
 }
+
+#container {
+  padding: 10px;
+  margin: 20px auto;
+  display: flex;
+  background-color:none;
+  border: none;
+  flex-direction: row;
+  width: 750px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  margin: 20px;
+  border-radius: 100%;
+  box-sizing: border-box;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+#box1 {
+  background-color: #f18741;
+}
+
+#box2 {
+  background-color: #ffffff;
+  border: none;
+}
+
+#box3 {
+  background-color: #0a5e12;
+}
+
+#box2 img {
+  width: 120%;
+  height: 120%;
+  object-fit: cover;
+  display: block;
+}
