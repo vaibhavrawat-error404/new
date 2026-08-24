@@ -157,3 +157,7 @@ select {
   object-fit: cover;
   display: block;
 }
+
+footer{
+  text-align: center;
+}
