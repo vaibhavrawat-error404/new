@@ -33,7 +33,7 @@ header div h1{
     left: 50px;
 }
 
-.subsections{
+.subsections,footer{
     text-align: left;
     letter-spacing: 1px;
 
