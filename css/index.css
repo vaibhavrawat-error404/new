@@ -26,23 +26,39 @@ header div h1{
     margin: 25px auto;
 
     box-shadow: -15PX 15PX 50px rgba(56, 189, 248, 0.5);
-
+/*
     position: fixed;
     top: 10px;
     right: 50px;
     left: 50px;
+  */
 }
 
 .subsections,footer,#interest{
     text-align: left;
     letter-spacing: 1px;
 
-    padding: 3px 5px;
+    padding: 13px 15px;
     margin: 25px auto;
     border-radius: 15px;
 
     border: 2px solid rgba(45, 102, 217, 0.08);
-    background-color: rgba(240, 244, 247, 0.286);
+    background-color: rgba(218, 235, 248, 0.286);
+
+    font-family: 'Times New Roman', Times, serif;
+
+    line-height: 1.4;
+}
+#language,#skills,#other{
+    text-align: 10px left;
+    letter-spacing: 1px;
+
+    padding: 20px;
+    margin: 25px 15px;
+    border-radius: 20px;
+
+    border: 2px solid rgba(45, 102, 217, 0.08);
+    background-color: rgba(130, 153, 198, 0.347);
 
     font-family: 'Times New Roman', Times, serif;
 
@@ -51,7 +67,7 @@ header div h1{
 
 h3{
     color: rgba(38, 116, 190, 0.638);
-    font-size: 45px;
+    font-size: 30px;
 
     font-family: cursive;
     
@@ -175,11 +191,11 @@ h4,h5{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h3{
-  font-size: 30px;
-}
 h4{
   font-size: 20px;
+}
+h5{
+  font-size: 15px;
 }
 
 /* 3. Tighten List Spacing */
