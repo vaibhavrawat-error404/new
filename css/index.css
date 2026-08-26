@@ -1,6 +1,6 @@
 *{
-        padding: 10px;
-        margin: 10px 25px 5px 25px;
+        padding: 0px 10px 10px 10px;
+        margin: 0px 25px 5px 25px;
         box-sizing: border-box;
 }
 body{
@@ -9,7 +9,7 @@ body{
 }
 
 header div h1{
-    background-color:  rgba(225, 223, 220, 0.91); 
+    background-color: rgba(218, 235, 248, 0.286); 
     color:rgba(38, 116, 190, 0.638); 
     border: 2px;
 
@@ -18,11 +18,11 @@ header div h1{
     text-align: center;
     padding: 3px 5px;
 
-    font-size: 36px;
+    font-size: 38px;
     letter-spacing: 1px;
+    font-family: cursive;
 
-
-    width: 320px;           
+    width: 500px;           
     margin: 25px auto;
 
     box-shadow: -15PX 15PX 50px rgba(56, 189, 248, 0.5);
@@ -32,6 +32,42 @@ header div h1{
     right: 50px;
     left: 50px;
   */
+}
+
+.navigations{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  padding: 12px 20px;
+  gap: 15px;
+
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-items{
+  text-align: center;
+
+  padding: 8px 18px;
+
+  text-decoration: none;
+  font-family: cursive;
+  color: rgb(39, 89, 226);
+  
+  border: 2px solid rgba(45, 102, 217, 0.08);
+  background-color: rgba(218, 235, 248, 0.286);
+  border-radius: 10px;
+
+  display: inline-block;
+  transition: all 0.2s ease-in-out;
+
+}
+.nav-items:hover{
+  background-color: rgba(39, 89, 226, 0.15);
+  border-color: rgb(39, 89, 226);
 }
 
 .subsections,footer,#interest{
@@ -216,3 +252,6 @@ li {
   padding: 0;              /* Removes excessive internal padding */
   line-height: 1.4;        /* Normalizes line height */
 }
+
+
+
