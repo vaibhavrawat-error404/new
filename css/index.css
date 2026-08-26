@@ -1,37 +1,37 @@
 *{
-        padding: 0px 10px 10px 10px;
-        margin: 0px 25px 5px 25px;
-        box-sizing: border-box;
+  padding: 0px 10px 10px 10px;
+  margin: 0px 25px 5px 25px;
+  box-sizing: border-box;
 }
 body{
-    background-color: rgba(3, 59, 132, 0.497);
+background-color: rgba(3, 59, 132, 0.497);
 
 }
 
 header div h1{
-    background-color: rgba(218, 235, 248, 0.286); 
-    color:rgba(38, 116, 190, 0.638); 
-    border: 2px;
+  background-color: rgba(218, 235, 248, 0.286); 
+  color:rgba(38, 116, 190, 0.638); 
+  border: 2px;
 
-    border-radius: 15px;
-    border-color: rgba(44, 107, 215, 0.77);
-    text-align: center;
-    padding: 3px 5px;
+  border-radius: 15px;
+  border-color: rgba(44, 107, 215, 0.77);
+  text-align: center;
+  padding: 3px 5px;
 
-    font-size: 38px;
-    letter-spacing: 1px;
-    font-family: cursive;
+  font-size: 38px;
+  letter-spacing: 1px;
+  font-family: cursive;
 
-    width: 500px;           
-    margin: 25px auto;
+  width: 500px;           
+  margin: 25px auto;
 
-    box-shadow: -15PX 15PX 50px rgba(56, 189, 248, 0.5);
+  box-shadow: -15PX 15PX 50px rgba(56, 189, 248, 0.5);
 /*
-    position: fixed;
-    top: 10px;
-    right: 50px;
-    left: 50px;
-  */
+  position: fixed;
+  top: 10px;
+  right: 50px;
+  left: 50px;
+*/
 }
 
 .navigations{
@@ -71,68 +71,68 @@ header div h1{
 }
 
 .subsections,footer,#interest{
-    text-align: left;
-    letter-spacing: 1px;
+  text-align: left;
+  letter-spacing: 1px;
 
-    padding: 13px 15px;
-    margin: 25px auto;
-    border-radius: 15px;
+  padding: 13px 15px;
+  margin: 25px auto;
+  border-radius: 15px;
 
-    border: 2px solid rgba(45, 102, 217, 0.08);
-    background-color: rgba(218, 235, 248, 0.286);
+  border: 2px solid rgba(45, 102, 217, 0.08);
+  background-color: rgba(218, 235, 248, 0.286);
 
-    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
-    line-height: 1.4;
+  line-height: 1.4;
 }
 #language,#skills,#other{
-    text-align: 10px left;
-    letter-spacing: 1px;
+  text-align: 10px left;
+  letter-spacing: 1px;
 
-    padding: 20px;
-    margin: 25px 15px;
-    border-radius: 20px;
+  padding: 20px;
+  margin: 25px 15px;
+  border-radius: 20px;
 
-    border: 2px solid rgba(45, 102, 217, 0.08);
-    background-color: rgba(130, 153, 198, 0.347);
+  border: 2px solid rgba(45, 102, 217, 0.08);
+  background-color: rgba(130, 153, 198, 0.347);
 
-    font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 
-    line-height: 1.4;
+  line-height: 1.4;
 }
 
 h3{
-    color: rgba(38, 116, 190, 0.638);
-    font-size: 30px;
+  color: rgba(38, 116, 190, 0.638);
+  font-size: 30px;
 
-    font-family: cursive;
-    
-    /*
-    text-decoration-line: underline;             
-    text-decoration-style: wavy;                
-    text-decoration-color: rgba(38, 116, 190, 0.9); 
-    */
+  font-family: cursive;
+  
+  /*
+  text-decoration-line: underline;             
+  text-decoration-style: wavy;                
+  text-decoration-color: rgba(38, 116, 190, 0.9); 
+  */
 }
 #uses ul{
-    line-height: 2px;
+  line-height: 2px;
 }
 
 select {
-    /* Remove default OS styling */
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
+  /* Remove default OS styling */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
 
-    /* Box styling */
-    width: 250px;
-    padding: 10px 16px;
-    font-size: 16px;
-    color: #f1f5f9;
-    background-color: #1e293b;
-    border: 2px solid #3b82f6;
-    border-radius: 8px;
-    cursor: pointer;
-    outline: none;
+  /* Box styling */
+  width: 250px;
+  padding: 10px 16px;
+  font-size: 16px;
+  color: #f1f5f9;
+  background-color: #1e293b;
+  border: 2px solid #3b82f6;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
 
 }
 
