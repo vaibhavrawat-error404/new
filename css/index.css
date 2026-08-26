@@ -33,7 +33,7 @@ header div h1{
     left: 50px;
 }
 
-.subsections,footer,#areas-of-interest{
+.subsections,footer,#interest{
     text-align: left;
     letter-spacing: 1px;
 
@@ -44,10 +44,14 @@ header div h1{
     border: 2px solid rgba(45, 102, 217, 0.08);
     background-color: rgba(240, 244, 247, 0.286);
 
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h3 {
+h3{
     color: rgba(38, 116, 190, 0.638);
+    font-size: 45px;
+
+    font-family: cursive;
     
     /*
     text-decoration-line: underline;             
@@ -160,4 +164,8 @@ select {
 
 footer{
   text-align: center;
+}
+
+#interest h4{
+
 }
