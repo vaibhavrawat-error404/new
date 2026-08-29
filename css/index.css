@@ -70,7 +70,7 @@ header div h1{
   border-color: rgb(245, 246, 249);
 }
 
-.subsections,footer,#interest{
+.subsections,footer,#interest,.Profile{
   text-align: left;
   letter-spacing: 1px;
 
@@ -253,5 +253,17 @@ li {
   line-height: 1.4;        /* Normalizes line height */
 }
 
+.info{
+  color: #1d57b5f1;
+  align-items: left;
+}
 
-
+input{
+  color: rgb(22, 71, 145);
+  background-color: rgba(53, 109, 188, 0.319);
+  width: fit-content;
+  height: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 10px;
+  font-size: 20px;
+}
