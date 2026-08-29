@@ -271,7 +271,11 @@ input{
   border-radius: 2px;
 }
 
-.subsections:hover,footer:hover,.Profile:hover,.tech:hover{
+.subsections:hover,footer:hover,.Profile:hover{
   background-color: rgba(215, 228, 244, 0.126);
+  border-color: rgb(39, 107, 167);
+}
+#interest:hover{
+  background-color: rgba(227, 232, 237, 0.126);
   border-color: rgb(39, 107, 167);
 }
