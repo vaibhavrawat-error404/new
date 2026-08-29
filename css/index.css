@@ -254,7 +254,7 @@ li {
   line-height: 1.4;        /* Normalizes line height */
 }
 
-.info{
+.info,input[type="file"]::file-selector-button{
   color: #1d57b5f1;
   align-items: left;
 }
