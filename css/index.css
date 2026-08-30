@@ -26,6 +26,7 @@ header div h1{
   margin: 25px auto;
 
   box-shadow: -15PX 15PX 50px rgba(56, 189, 248, 0.5);
+  transition: all 0.2s ease-in-out;
 /*
   position: fixed;
   top: 10px;
@@ -271,9 +272,9 @@ input{
   border-radius: 2px;
 }
 
-.subsections:hover,footer:hover,.Profile:hover{
+.subsections:hover,footer:hover,.Profile:hover,h1:hover{
   background-color: rgba(215, 228, 244, 0.126);
-  border-color: rgb(39, 107, 167);
+  border: 2px solid rgb(39, 107, 167);
 }
 #interest:hover{
   background-color: rgba(227, 232, 237, 0.126);
