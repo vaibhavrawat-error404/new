@@ -254,7 +254,7 @@ li {
   line-height: 1.4;        /* Normalizes line height */
 }
 
-.info,input[type="file"]::file-selector-button{
+.info{
   color: #1d57b5f1;
   align-items: left;
 }
@@ -278,4 +278,10 @@ input{
 #interest:hover{
   background-color: rgba(227, 232, 237, 0.126);
   border-color: rgb(39, 107, 167);
+}
+input[type="file"]::file-selector-button{
+  color: rgb(24, 80, 150)8;
+  background-color: #adc9f63e;
+  border: 2px solid rgb(24, 80, 150);
+  border-radius: 3px;
 }
